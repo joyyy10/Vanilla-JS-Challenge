@@ -1,0 +1,55 @@
+* {
+  font-family: "Poor Story", cursive;
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+body {
+  position : relative;
+}
+
+#block {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  height: 300px;
+  width: 400px;
+  margin-left: -200px;
+  margin-top: 200px;
+  text-align: center;
+  text-shadow: 2px 2px 8px gray;
+}
+
+/* #clock {
+  text-shadow: 2px 2px 8px gray;
+} */
+
+#login-form input {
+  background-color: rgba(255,255,255,0.4);
+  border-color: transparent;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+}
+
+#login-form button {
+  font-size: large;
+  border-color: transparent;
+  background-color: rgba(255,255,255,0.4);
+}
+
+#todo-form input {
+  background-color: rgba(255,255,255,0.4);
+  border-color: transparent;
+  border-radius: 10px;
+  width:300px;
+  font-size: x-large;
+}
+
+.hidden {
+  display: none;
+}
+
+#weather span{
+  font-size: x-large;
+}
